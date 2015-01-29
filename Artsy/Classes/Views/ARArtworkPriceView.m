@@ -38,7 +38,6 @@
         row.priceLabel.font = [UIFont serifItalicFontWithSize:row.priceLabel.font.pointSize];
         row.priceLabel.text = @"Contact for Price";
     } else {
-        row.priceLabel.font = [UIFont sansSerifFontWithSize:24];
         row.priceLabel.text = artwork.price;
     }
 
